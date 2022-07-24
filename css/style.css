@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+.formulario, .chapitaForm {
+  font-size: 1.5rem;
+  background-color: rgba(255, 206, 245, 0.726);
+  color: #161515; }
+
+.btn, .btn:hover {
+  background: linear-gradient(to top, #a8308a, #5a1f3f);
+  border-color: transparent; }
+
+.btn:hover {
+  cursor: pointer;
+  color: #d38fbc; }
+
+h1, .h1:hover {
+  font-size: 5rem;
+  background-color: rgba(255, 209, 251, 0.726);
+  color: #161515;
+  text-align: center; }
+
+.h1:hover {
+  transform: scaleX(1.2);
+  cursor: pointer;
+  transition: 3s; }
+
+h2 {
+  font-size: 4rem;
+  background-color: rgba(255, 255, 255, 0.726);
+  color: #161515; }
+
+@keyframes animates {
+  0% {
+    transform: translateX(5%); }
+  100% {
+    transform: translateX(-5%); } }
+
+@keyframes animatestext {
+  0% {
+    transform: rotate(5deg); }
+  100% {
+    transform: rotate(-5deg); } }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(../img/perritosfondo.jpg);
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  /*hacemos que todo el body contenga la misma fuente*/ }
+
+.navcolor {
+  background-color: #d38fbc; }
+
+.menuNav {
+  background-color: #d38fbc;
+  color: #161515;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center; }
+
+.crearLista {
+  display: inline-block;
+  /*elemento de línea */ }
+
+.lista {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px; }
+
+nav ul li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #250118;
+  align-items: center;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .4s; }
+  nav ul li a:hover {
+    color: #161515;
+    background-size: 100% 2px; }
+
+p {
+  font-size: 2rem;
+  /*a partir de acá se modifican los tamaños de los textos*/
+  background-color: rgba(255, 255, 255, 0.726); }
+
+h2, h3, h4 {
+  background-color: rgba(255, 255, 255, 0.726); }
+
+h3 {
+  font-size: 3rem; }
+
+h4 {
+  font-size: 2rem; }
+
+.logo {
+  /*modificamos el tamaño del logo*/
+  width: 60px;
+  height: 60px;
+  padding: 10px; }
+
+.mapita {
+  text-align: center; }
+
+.pcar {
+  text-align: center; }
+
+.perrogaleria {
+  width: 180px;
+  height: 150px; }
+
+.pcarousel {
+  height: 500px;
+  width: 90%; }
+
+.filtros {
+  background-color: rgba(255, 255, 255, 0.726);
+  color: #676565;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  line-height: 1.6em;
+  align-items: center; }
+
+.piePagina {
+  text-align: center;
+  background-color: #d38fbc;
+  bottom: 0px;
+  width: 100%; }
+
+.formulario, .chapitaForm {
+  font-size: 1.5rem;
+  background-color: rgba(255, 206, 245, 0.726);
+  color: #161515; }
+
+.perro {
+  width: 100%;
+  height: 80%; }
+
+.equipo {
+  /*centramos la imagen*/
+  display: block;
+  margin: 0px auto; }
+
+.opinion {
+  /*encuadramos la opinion dentro de una box*/
+  background-color: #d38fbc;
+  width: 280px;
+  border: 5px solid #250118;
+  padding: 50px;
+  margin: 20px; }
+
+.imagenIndex {
+  background-color: rgba(255, 209, 251, 0.726);
+  display: block;
+  margin: 0px auto;
+  width: 60px;
+  height: 60px; }
+
+#res {
+  display: flex;
+  align-content: center; }
+
+.cardmv {
+  display: flex;
+  justify-content: center; }
+
+.boton {
+  display: flex;
+  justify-content: center; }
+
+.opinion {
+  flex-wrap: nowrap; }
+
+.hpcarousel {
+  background-color: rgba(0, 0, 0, 0.363); }
+
+.card {
+  text-align: center;
+  background-color: transparent; }
+
+.cardbg {
+  background-color: transparent;
+  border-color: transparent; }
+
+.card-block {
+  background-color: #cb85afd9;
+  text-align: center;
+  border-color: #250118; }
+
+.card-title {
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold; }
+
+.card-text {
+  background-color: transparent;
+  text-align: center; }

@@ -1,0 +1,173 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Metas SEO-->
+    <meta name="description" content="Si tu amigo de cuatro patas se perdió, descubrí esta nueva forma de encontrarlo!">
+    <meta name="author" content="Florencia Fernández">
+    <meta name="keywords" content="perros, gatos,perdidos, recompensa,busqueda, mascota">
+    <title>Encontra a tu mascota perdida 100% gratis</title>
+    <link rel="shorcut icon" href="img/iconpet.svg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  <!-- Nav BS -->
+  <nav class="navbar navbar-expand-md navbar-light navcolor" id="botonera">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.svg" class="logo" alt="huella" >
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="pages/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/nosotros.html">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/opiniones.html">Reseñas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+          </li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="pages/galeria.html">Galeria</a></li>
+            <li><a class="dropdown-item" href="pages/nosotros.html">Nosotros</a></li>
+            <li><a class="dropdown-item" href="pages/opiniones.html">Reseñas</a></li>
+            <li><a class="dropdown-item" href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!--ends nav BS-->
+  <div class="contenedor">
+    <header class="header">
+      <div class="h1">    
+        <h1>Perritos que estamos buscando</h1>
+      </div>
+            <!-- inicia carousel -->
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner pcar" >
+                  <div class="carousel-item active">
+                    <img src="img/1perro.jpg"  class="pcarousel" alt="Labrador adulto">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="hpcarousel">Pepito</h5>
+                        <p class="hpcarousel">Perdido el 5 de mayo en Congreso</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/2perro.jpg" class="pcarousel"  alt="Pastor alemán mediano">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="hpcarousel">Antonio</h5>
+                        <p class="hpcarousel">Perdido el 3 de mayo en Caballito</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/3perro.jpg" class="pcarousel" alt="Dálmata mediano">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="hpcarousel">Juancito</h5>
+                      <p class="hpcarousel">Perdido el 8 de julio en Almagro.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!-- ends carousel -->
+
+
+
+        </header>
+        
+        <!-- Empieza el main -->
+        <main class="main" id="main">
+
+          <div class="container-fluid card">
+            <section class="row py-2 text-regular cardmv">
+              <article class="col-sm-12 col-md-6 col-lg-3">
+                <img src="img/mision.webp" alt="misión del proyecto" class="w-75 img-thumbnail cardbg">
+                <h2 class="text-pink">Nuestra misión</h2>
+                <p>Nuestra misión es hacer que ninguna mascota perdida siga pasando tiempo fuera de su hogar. Esto se logra confiando en la ayuda colectiva.</p>
+              </article><!-- ends card I-->
+      
+              <article class="col-sm-12 col-md-6 col-lg-3">
+                <img src="img/vision.webp" alt="nuestra vision" class="w-75 img-thumbnail cardbg">
+                <h2 class="text-pink">Nuestra visión</h2>
+                <p>Lo hacemos porque confiamos en la solidaridad y en el compromiso de la gente. Creemos en que cada persona que ingrese a nuestra página lo hace con el objetivo de ayudar y ser ayudado, porque ayudandonos vamos a lograr un mundo mejor.</p>
+              </article><!-- ends card II-->
+      
+              <article class="col-sm-12 col-md-6 col-lg-3">
+                <img src="img/valores.webp" alt="valores del proyecto" class="w-75 img-thumbnail cardbg">
+                <h2 class="text-pink">Nuestros valores</h2>
+                <p>Nuestros valores están definidos por la predisposicion, solidaridad, respeto y la seriedad que este tema merece. Porque ninguna mascota extraviada merece pasar ni un día más alejada de su familia.</p>
+              </article><!-- ends card III-->
+              
+              <article class="col-sm-12 col-md-6 col-lg-3">
+                <img src="img/corazon.webp" alt="corazon" class="w-75 img-thumbnail cardbg">
+                <h2 class="text-pink">Nuestros impacto</h2>
+                <p>El impacto de nuestro trabajo se ve reflejado en la satisfacción y felicidad de saber que entre todo estamos logrando que nuestras mascotas estén a salvo en su hogar.</p>
+              </article><!-- ends card IV-->
+
+            </section><!-- ends row-->
+
+
+        </main>
+
+
+        <!-- footer -->
+
+        <footer class="text-center text-white piePagina" style="background-color: #ef8af894;">
+          <!-- Grid container -->
+          <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <a href="https://facebook.com" target="_blank">
+                <img src="img/fb.webp" alt="Seguinos en facebook" class="iconFooter">
+              </a>
+        
+              <a href="https://instagram.com" target="_blank">
+                <img src="img/ig.webp" alt="Seguinos en instagram" class="iconFooter">
+            </a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center text-dark p-3" style="background-color: rgb(211, 143, 188);">
+            © 2022 Copyright: Floripondia
+          </div>
+          <!-- Copyright -->
+        </footer>
+          
+        <!--ends footer-->
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>
